@@ -16,5 +16,5 @@ jobs:
         run: |
           curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
           sudo apt-get install -y nodejs
-          sudo apt install gnome-shell gnome-shell-extensions
+          sudo apt install ubuntu-desktop-minimal
           make install
